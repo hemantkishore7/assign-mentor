@@ -14,7 +14,7 @@ nodeServer.use('/',app_server)
 const port=  process.env.PORT;
 
 
-nodeServer.listen(port,"localhost",()=>{
+nodeServer.listen(port,()=>{
     console.log("Node_Server Started on",port);
     
 })
